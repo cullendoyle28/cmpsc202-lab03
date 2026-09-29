@@ -54,6 +54,6 @@ Output: int sum
 
 Without knowing anything about $f$, what can we say about the running time of the Mystery Algorithm in terms of $n$? Justify your answer. 
 
-We have 3n^2 + 2.
-By dropping constants and using the sum is max property, we get O(n^2). 
-But, we have to include the running time of the algorithm $f(A, i, j)$. The running of this algorithm could be anything between 1 and infnite steps.
+We have $3n^2 + 2$.
+By dropping constants and using the sum is max property, we get $\mathcal{O}(n^2)$. 
+But, we have to include the running time of the algorithm $f(A, i, j)$. The running of this algorithm could be anything between 1 and infinite steps.
